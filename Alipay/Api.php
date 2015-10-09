@@ -33,7 +33,7 @@ class Payment_Alipay_Api
         $tmpArray = array();
         foreach($param as $key => $value)
         {
-            $tmpArray[] = sprintf('%s="%s"', $key, urlencode($value));
+            $tmpArray[] = sprintf('%s=%s', $key, urlencode($value));
         }
         return implode('&',$tmpArray);
     }
