@@ -69,7 +69,6 @@ function testMobilePay()
     $param = array(
         'notify_url' => 'http://payitf.mafengwo.cn/alipay/notify_url.php',
         'return_url' => 'http://www.baidu.com',
-        'error_notify_url' => 'http://www.mafengwo.cn/error.php',
         'out_trade_no' => '1512460346019990',
         'subject' => 'xxx三日游',
         'total_fee' => '0.01',
